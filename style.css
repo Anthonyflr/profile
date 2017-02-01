@@ -1,4 +1,4 @@
-body{
+  body{
   color: #EAEAEA; 
   background-color: #4db8ff;
   background-image: url("images/background-image.png");
@@ -40,11 +40,14 @@ p{
 .list-in-line{ 
   list-style-type: none;
   line-height: 200%;
-
+}
+.list-in-line li {
+  display: inline-block;
 }
 .list-in-line li a {
   color: #66666E;
-  font-size: 150%;
+  font-size: 200%;
+  white-space: 10px;
   font-family: 'open-sans', sans-serif; 
   line-height:;
   text-decoration: underline;
